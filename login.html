@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Formulario</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/cores.css">
+  <link rel="shortcut icon" href="icones/icone-formulario.png" type="image/x-icon">
+  
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color:white;
+      padding: 25px;
+     
+    }
+
+  </style>
+</head><div class="container">
+    <div class="p-3 m-3">
+        <div class="col-lg-5 rounded mx-auto border pt-4">
+            <div class="text-center col">
+            
+                <img
+                src="logos/icone login 3.png" alt=""
+                class="" style="height: 150px;margin-top: 25px; ">
+            <hr style="margin-left: -58px;margin-right: -35px;margin-top: 20px;">
+            </div>
+            <h3 class="alert alert-light rounded-pill" style="height: -100px;;margin-left: -31.5px;" <h3 style="margin-top: 50px;">Login</h3>
+            <form action="/login" method="POST">
+                
+
+                </div>
+   
+                <!-- email -->
+                <div class="form-group">
+                    <label for="" style="margin-top: 275px;margin-left: -474px;">Email</label>
+                    <input required type="email" name="email" id=""
+                    class=" form-control-sm form-control" placeholder="Email:abc@gmail.com" style="margin-top: -315px;">
+                </div>
+
+
+                <!-- password -->
+                <div class="form-group">
+                    <label for="">Senha</label>
+                    <input type="password" 
+                    name="password" 
+                    id=""
+                     class="form-control form-control-sm" >
+            
+                <hr style="margin-left: -40px;margin-right: -35px;margin-top: 20px;">
+                <button type="submit" class="btn btn-sm btn-success col-lg-12">Login</button>
+
+                
+            </form>
+        </div>
+    </div>
+</div>
+
